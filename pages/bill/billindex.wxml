@@ -1,0 +1,11 @@
+<!--pages/bill/billindex.wxml-->
+<view wx:for="{{bills}}" wx:key="{{item._id}}" class='weui-cells'>
+  <view class='bg_green'>[{{item.BillType}}]:{{item.BillTime}}</view>
+  <view class='section'>
+    <view class='flex-wrp' style='flex-direction:row;'>
+      <view class='flex-item bg_red'>金额:￥{{item.BillQty}}</view>
+      <view class='flex-item bg_blue'>备注{{item.Remark}}</view>
+    </view>
+  </view>
+</view>
+<button bindtap='addBills'>点击添加</button>

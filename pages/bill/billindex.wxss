@@ -1,0 +1,16 @@
+/* pages/bill/billindex.wxss */
+@import "../../libs/weui.wxss";
+
+.bg_green {
+background: greenyellow;
+}
+.bg_red{
+  background: red;
+}
+.bg_blue{
+  padding-top: 3px;
+  background:lightcyan;
+  font-size: 11px;
+  text-align: center;
+}
+.flex-wrp {display: flex;}
